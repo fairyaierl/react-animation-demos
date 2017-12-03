@@ -1,0 +1,9 @@
+.item {
+	border: 1px solid #e5e5e5;
+	borer-bottom-width: 0;
+	padding: 0 10px;
+}
+
+.item:last-of-type {
+	border-bottom-width: 1px;
+}

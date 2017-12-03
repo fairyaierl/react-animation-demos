@@ -1,0 +1,20 @@
+.progress-wrapper {
+  display: inline-block;
+  background: #f8f8f8;
+  border-radius: 10px;
+  height: 10px;
+  width: 580px;
+}
+
+.progress-inner {
+  border-radius: 10px;
+  background: #f44;
+  height: 10px;
+}
+
+.progress-info {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #999;
+}

@@ -1,0 +1,51 @@
+.tab-item {
+	background: #f8f8f8;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px 5px 0 0;
+    border-right-width: 0;
+	display: inline-block;
+    padding: 8px 15px;
+    text-align: center;
+    width: 90px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.tab-item:last-of-type {
+	border-right-width: 1px;
+}
+
+.tab-item-active {
+	background: #fff;
+	border-bottom: none;
+}
+
+.btn-add {
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.btn-delete {
+	cursor: pointer;
+	float: right;
+}
+
+/* tab动态增加动画 */
+.tabs-wrap-enter {
+  opacity: 0.01;
+}
+
+.tabs-wrap-enter.tabs-wrap-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+}
+
+.tabs-wrap-leave {
+  opacity: 1;
+}
+
+.tabs-wrap-leave.tabs-wrap-leave-active {
+  opacity: 0.01;
+  transition: all 500ms ease-in;
+}
