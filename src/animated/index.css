@@ -1,0 +1,9 @@
+.preivew-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.preivew-wrapper img {
+	height: 200px;
+	width: 200px;
+}

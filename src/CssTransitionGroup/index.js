@@ -65,7 +65,7 @@ export default class Tabs extends Component {
         }
 
         return (
-            <div>
+            <div className="demo-csstansitiongroup">
                 <div className="tabs" >
                     <CSSTransitionGroup
                       transitionName="tabs-wrap"

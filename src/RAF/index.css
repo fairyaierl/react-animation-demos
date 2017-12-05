@@ -6,7 +6,7 @@
   width: 580px;
 }
 
-.progress-inner {
+.demo-raf .progress-inner {
   border-radius: 10px;
   background: #f44;
   height: 10px;

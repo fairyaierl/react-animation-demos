@@ -6,6 +6,7 @@ import ProgressCss from './css3';
 import Tabs from './CssTransitionGroup';
 import Gallery from './hook';
 import DropList from './reactMotion';
+import PhotoPreview from './animated';
 
 class App extends Component {
     render() {
@@ -30,6 +31,10 @@ class App extends Component {
                 <section>
                     <h1>demo5: react-motion</h1>
                     <DropList />
+                </section>
+                <section>
+                    <h1>demo6: animated</h1>
+                    <PhotoPreview />
                 </section>
             </div>
         );

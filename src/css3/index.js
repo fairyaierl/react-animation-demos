@@ -28,10 +28,10 @@ export default class Progress extends Component {
         const { percent } = this.state;
 
         return (
-            <div>
+            <div className="demo-css">
                 <div className="progress">
                     <div className="progress-wrapper" >
-                        <div className="progress-inner2" style = {{width: `${percent}%`}} ></div>
+                        <div className="progress-inner" style = {{width: `${percent}%`}} ></div>
                     </div>
                     <div className="progress-info" >{percent}%</div>
                 </div>

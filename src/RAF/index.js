@@ -52,7 +52,7 @@ export default class Progress extends Component {
         const { percent } = this.state;
 
         return (
-            <div>
+            <div className="demo-raf">
                 <div className="progress">
                     <div className="progress-wrapper" >
                         <div className="progress-inner" style = {{width: `${percent}%`}} ></div>

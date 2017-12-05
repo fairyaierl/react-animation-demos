@@ -84,7 +84,7 @@ export default class Gallery extends Component {
         }
 
         return (
-            <div>
+            <div className="demo-hook">
                 <button onClick={this.toggle}>toggle</button>
                 <TransitionGroup component="div">
                     {show && renderPhotos()}

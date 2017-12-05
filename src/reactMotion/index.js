@@ -21,7 +21,7 @@ export default class Index extends React.Component {
     render() {
         const { show } = this.state;
         return (
-            <div>
+            <div className="demo-reactmotion">
                 <button onClick={this.toggle}>toggle</button>
                 {
                     show && <StaggeredMotion
