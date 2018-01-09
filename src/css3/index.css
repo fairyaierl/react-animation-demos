@@ -10,7 +10,7 @@
   border-radius: 10px;
   background: #f44;
   height: 10px;
-  transition: all 400ms cubic-bezier(0.08, 0.82, 0.17, 1);
+  transition: width 400ms cubic-bezier(0.08, 0.82, 0.17, 1);
 }
 
 .progress-info {
